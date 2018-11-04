@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/entornodomestico/static/media/entorno_logo.aa1c2e8b.jpg"
   },
   {
+    "revision": "890bac8e57d06027a49843111ce92e35",
+    "url": "/entornodomestico/static/media/entorno_letras.890bac8e.PNG"
+  },
+  {
     "revision": "8a0de117ef4106c327f2c047f6cee8e9",
     "url": "/entornodomestico/static/media/entorno_animacion.8a0de117.gif"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/entornodomestico/static/js/runtime~main.8ad35317.js"
   },
   {
-    "revision": "19e06852b60a4d93a313",
-    "url": "/entornodomestico/static/js/main.19e06852.chunk.js"
+    "revision": "c81fff955afdc1d5c0ff",
+    "url": "/entornodomestico/static/js/main.c81fff95.chunk.js"
   },
   {
-    "revision": "8498ba2aa9809bef3538",
-    "url": "/entornodomestico/static/js/1.8498ba2a.chunk.js"
+    "revision": "1874b0ff1fe753ca81c6",
+    "url": "/entornodomestico/static/js/1.1874b0ff.chunk.js"
   },
   {
-    "revision": "19e06852b60a4d93a313",
-    "url": "/entornodomestico/static/css/main.6dfe1773.chunk.css"
+    "revision": "c81fff955afdc1d5c0ff",
+    "url": "/entornodomestico/static/css/main.b50045d9.chunk.css"
   },
   {
-    "revision": "ad5c21989a8b4ab7b09468723f0e212c",
+    "revision": "7bdcada491e5acaff3a1c8e262e3aecc",
     "url": "/entornodomestico/index.html"
   }
 ];
