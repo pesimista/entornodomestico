@@ -78,7 +78,22 @@ const Musicians = [
             "name": "Lo Desconocido",
             "url": "http://entornodomestico.net/web/d/EDIE033.jpg",
             "short": "Lo Desconocido es una colección de primeras tomas e ideas fallidas, realizadas entre 2008 y 2012; período que corresponde a la composición de Poietiké y Banco Insular.\nUna selección de archivos infectados de manierismo inmaduro.\nLo Desconocido es lo que no funciona.",
-            "long": "Lo Desconocido es una colección de primeras tomas e ideas fallidas, realizadas entre 2008 y 2012; período que corresponde a la composición de Poietiké y Banco Insular.\nUna selección de archivos infectados de manierismo inmaduro:\n\"sha, she\" completamente ofensivo para Argentina\n\"Tssaa\" anglosajones penosos, letras negativas y proyectos de papelera de reciclaje.\nLo Desconocido es lo que no funciona." 
+            "long": "Lo Desconocido es una colección de primeras tomas e ideas fallidas, realizadas entre 2008 y 2012; período que corresponde a la composición de Poietiké y Banco Insular.\nUna selección de archivos infectados de manierismo inmaduro:\n\"sha, she\" completamente ofensivo para Argentina\n\"Tssaa\" anglosajones penosos, letras negativas y proyectos de papelera de reciclaje.\nLo Desconocido es lo que no funciona.",
+            songs: [
+                  "Zatan II (2012)",
+                  "Todo Gira (2010)",
+                  "Esteros (2010)",
+                  "Banco Insular (2011)",
+                  "Diamantes Inquietos (2011)",
+                  "Don Bosco (2011)",
+                  "Esta Noche (2010)",
+                  "F (2011)",
+                  "Oro (Pre Montessori 2010)",
+                  "El Pez Traslúcido (MAXI 2012)",
+                  "L.S. (MAXI 2012)",
+                  "Siestas (2009)",
+                  "Azur (2010)",
+                ]
 
          },
          {
@@ -165,123 +180,7 @@ const Musicians = [
 
          },
       ]
-   },
-
-
-
-   {  "name" : "Ulises Hadjis",
-      "id" : 5,
-      "albums": [
-         {
-            "id": 0,
-            "name": "Lo haré",
-            "url": "http://entornodomestico.net/web/d/ulises-hadjis-lo-hare.jpg",
-            "short": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea.",
-
-            "long": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea. Sea por procrastinación o falta de compromiso, la voz presente se excusa y promete, esta vez, hacer una excepción: saltar con todo y ropa a la piscina de lo posible.\nLas voces de Ulises y Denise Gutiérrez (voz líder de la banda mexicana Hello Seahorse!) se sienten a gusto la una con la otra, como un matrimonio de décadas, de esos que sí funcionan. Sus juegos armónicos abren la puerta a una singular experiencia a quien escucha: acompañar (alternativamente, cada vez) la melodía de Ulises o Denise y, sobre todo, disfrutar de la amalgama que ambas forman.\nEl maxi-single de “Lo haré” ofrece además cuatro hermosos complementos: una versión en vivo del tema, grabada en el Berklee College of Music, los b-sides “El fin del mundo” y “Aún”, y el remix de “Maracaibo-San Félix” hecho por Tan Frío El Verano.\n-Roberto Torres Luzardo"
-         },
-         {
-            "id": 1,
-            "name": "Dónde va",
-            "url": "http://entornodomestico.net/web/d/ulises_donde_va.jpg",
-            "short": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis.\nEsta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx).",
-            "long": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis. Esta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx). Y encima, finalmente, la suave y característica voz de Ulises, con armonías y coros perfectamente colocados, cantando sobre viajar a una nueva vida.\nDos remixes acompañan el single, ambos en clave de electropop: uno hecho por Masseratti 2lts, calmado, con voces procesadas y teclados sutiles; y otro hecho por el coreano dO, más bailable y distorsionado." 
-         },
-         {
-            "id": 2,
-            "name": "Presente",
-            "url": "http://entornodomestico.net/web/d/EDIE033.jpg",
-            "short": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados.",
-            "long": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nLas 12 canciones que conforman el disco están coloreadas por la voz de Ulises, que canta letras vagas y metafóricas en tono melancólico y a veces algo reflexivo; ejecutado todo bajo un minucioso y elaborado trabajo de producción que le da a las canciones un sonido lleno, brillante y totalmente cargado de detalles sonoros, especialmente en la parte percusiva.\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados." 
-
-         },
-      ]
-   },
-   {  "name" : "Ulises Hadjis",
-      "id" : 6,
-      "albums": [
-         {
-            "id": 0,
-            "name": "Lo haré",
-            "url": "http://entornodomestico.net/web/d/ulises-hadjis-lo-hare.jpg",
-            "short": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea.",
-
-            "long": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea. Sea por procrastinación o falta de compromiso, la voz presente se excusa y promete, esta vez, hacer una excepción: saltar con todo y ropa a la piscina de lo posible.\nLas voces de Ulises y Denise Gutiérrez (voz líder de la banda mexicana Hello Seahorse!) se sienten a gusto la una con la otra, como un matrimonio de décadas, de esos que sí funcionan. Sus juegos armónicos abren la puerta a una singular experiencia a quien escucha: acompañar (alternativamente, cada vez) la melodía de Ulises o Denise y, sobre todo, disfrutar de la amalgama que ambas forman.\nEl maxi-single de “Lo haré” ofrece además cuatro hermosos complementos: una versión en vivo del tema, grabada en el Berklee College of Music, los b-sides “El fin del mundo” y “Aún”, y el remix de “Maracaibo-San Félix” hecho por Tan Frío El Verano.\n-Roberto Torres Luzardo"
-         },
-         {
-            "id": 1,
-            "name": "Dónde va",
-            "url": "http://entornodomestico.net/web/d/ulises_donde_va.jpg",
-            "short": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis.\nEsta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx).",
-            "long": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis. Esta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx). Y encima, finalmente, la suave y característica voz de Ulises, con armonías y coros perfectamente colocados, cantando sobre viajar a una nueva vida.\nDos remixes acompañan el single, ambos en clave de electropop: uno hecho por Masseratti 2lts, calmado, con voces procesadas y teclados sutiles; y otro hecho por el coreano dO, más bailable y distorsionado." 
-         },
-         {
-            "id": 2,
-            "name": "Presente",
-            "url": "http://entornodomestico.net/web/d/EDIE033.jpg",
-            "short": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados.",
-            "long": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nLas 12 canciones que conforman el disco están coloreadas por la voz de Ulises, que canta letras vagas y metafóricas en tono melancólico y a veces algo reflexivo; ejecutado todo bajo un minucioso y elaborado trabajo de producción que le da a las canciones un sonido lleno, brillante y totalmente cargado de detalles sonoros, especialmente en la parte percusiva.\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados." 
-
-         },
-      ]
-   },
-   {  "name" : "Ulises Hadjis",
-      "id" : 7,
-      "albums": [
-         {
-            "id": 0,
-            "name": "Lo haré",
-            "url": "http://entornodomestico.net/web/d/ulises-hadjis-lo-hare.jpg",
-            "short": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea.",
-
-            "long": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea. Sea por procrastinación o falta de compromiso, la voz presente se excusa y promete, esta vez, hacer una excepción: saltar con todo y ropa a la piscina de lo posible.\nLas voces de Ulises y Denise Gutiérrez (voz líder de la banda mexicana Hello Seahorse!) se sienten a gusto la una con la otra, como un matrimonio de décadas, de esos que sí funcionan. Sus juegos armónicos abren la puerta a una singular experiencia a quien escucha: acompañar (alternativamente, cada vez) la melodía de Ulises o Denise y, sobre todo, disfrutar de la amalgama que ambas forman.\nEl maxi-single de “Lo haré” ofrece además cuatro hermosos complementos: una versión en vivo del tema, grabada en el Berklee College of Music, los b-sides “El fin del mundo” y “Aún”, y el remix de “Maracaibo-San Félix” hecho por Tan Frío El Verano.\n-Roberto Torres Luzardo"
-         },
-         {
-            "id": 1,
-            "name": "Dónde va",
-            "url": "http://entornodomestico.net/web/d/ulises_donde_va.jpg",
-            "short": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis.\nEsta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx).",
-            "long": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis. Esta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx). Y encima, finalmente, la suave y característica voz de Ulises, con armonías y coros perfectamente colocados, cantando sobre viajar a una nueva vida.\nDos remixes acompañan el single, ambos en clave de electropop: uno hecho por Masseratti 2lts, calmado, con voces procesadas y teclados sutiles; y otro hecho por el coreano dO, más bailable y distorsionado." 
-         },
-         {
-            "id": 2,
-            "name": "Presente",
-            "url": "http://entornodomestico.net/web/d/EDIE033.jpg",
-            "short": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados.",
-            "long": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nLas 12 canciones que conforman el disco están coloreadas por la voz de Ulises, que canta letras vagas y metafóricas en tono melancólico y a veces algo reflexivo; ejecutado todo bajo un minucioso y elaborado trabajo de producción que le da a las canciones un sonido lleno, brillante y totalmente cargado de detalles sonoros, especialmente en la parte percusiva.\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados." 
-
-         },
-      ]
-   },
-   {  "name" : "Ulises Hadjis",
-      "id" : 8,
-      "albums": [
-         {
-            "id": 0,
-            "name": "Lo haré",
-            "url": "http://entornodomestico.net/web/d/ulises-hadjis-lo-hare.jpg",
-            "short": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea.",
-
-            "long": "Lo haré” –el cuarto sencillo del disco “Cosas Perdidas” de Ulises Hadjis– es un elogio a la agridulce magia que encierran los amores a la distancia y la distancia en los amores. Con una instrumentación deslastrada de toda pretensión, en dos minutos y dos segundos de hermosura poética la pieza se atreve a confesar las debilidades propias en una era en la que la autocrítica escasea. Sea por procrastinación o falta de compromiso, la voz presente se excusa y promete, esta vez, hacer una excepción: saltar con todo y ropa a la piscina de lo posible.\nLas voces de Ulises y Denise Gutiérrez (voz líder de la banda mexicana Hello Seahorse!) se sienten a gusto la una con la otra, como un matrimonio de décadas, de esos que sí funcionan. Sus juegos armónicos abren la puerta a una singular experiencia a quien escucha: acompañar (alternativamente, cada vez) la melodía de Ulises o Denise y, sobre todo, disfrutar de la amalgama que ambas forman.\nEl maxi-single de “Lo haré” ofrece además cuatro hermosos complementos: una versión en vivo del tema, grabada en el Berklee College of Music, los b-sides “El fin del mundo” y “Aún”, y el remix de “Maracaibo-San Félix” hecho por Tan Frío El Verano.\n-Roberto Torres Luzardo"
-         },
-         {
-            "id": 1,
-            "name": "Dónde va",
-            "url": "http://entornodomestico.net/web/d/ulises_donde_va.jpg",
-            "short": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis.\nEsta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx).",
-            "long": "\"Donde va\" es el primer sencillo y pieza abridora de \"Cosas perdidas\", el más reciente álbum del músico venezolano Ulises Hadjis. Esta pieza de indie pop está construída sobre un activo y sólido ritmo de batería, sobre el cual se van colocando el omnipresente riff de guitarra, el bajo y los sintetizadores y teclados (aportados por Heberto Añez de tlx). Y encima, finalmente, la suave y característica voz de Ulises, con armonías y coros perfectamente colocados, cantando sobre viajar a una nueva vida.\nDos remixes acompañan el single, ambos en clave de electropop: uno hecho por Masseratti 2lts, calmado, con voces procesadas y teclados sutiles; y otro hecho por el coreano dO, más bailable y distorsionado." 
-         },
-         {
-            "id": 2,
-            "name": "Presente",
-            "url": "http://entornodomestico.net/web/d/EDIE033.jpg",
-            "short": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados.",
-            "long": "Tres años después de la disolución de la reconocida banda marabina Julia, Ulises Hadjis sorprende con su álbum debut «Presente».\nLas 12 canciones que conforman el disco están coloreadas por la voz de Ulises, que canta letras vagas y metafóricas en tono melancólico y a veces algo reflexivo; ejecutado todo bajo un minucioso y elaborado trabajo de producción que le da a las canciones un sonido lleno, brillante y totalmente cargado de detalles sonoros, especialmente en la parte percusiva.\nProducido por el mismo Hadjis junto con Roberto Rincón, y ambos se encargan de ejecutar la mayoría de los instrumentos, acompañados ocasionalmente por varios invitados." 
-
-         },
-      ]
    }
-
 ]
 
 export default Musicians;

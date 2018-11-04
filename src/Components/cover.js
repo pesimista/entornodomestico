@@ -8,10 +8,10 @@ const Cover = ({scroll}) =>
       <section id="Cover" className="text-white text-center cover-container d-flex w-100 h-100 p-0 mx-auto flex-column" style={{backgroundImage: "url("+fondo+")"}} >
          <div className="pt-lg-5 pb-lg-4 bg-darkish"  >
             <div role="main" className="inner" >
-               <p className="text lead">Casa de musica de esta gente</p>
+               <p className="text lead">Casa de Música Independiente.</p>
                <h1 className="title mb-5" ><strong>Entorno Doméstico</strong> </h1>
                <p className="lead">
-                  <button id="usButton" type="button" className="btn px-5 btn-lg mx-2 bg-unactive text-white rounded-0" onClick={() => scroll('#Nosotros', 500)}>Nosotros</button>
+                  <button id="usButton" type="button" className="btn px-5 btn-lg mx-2 mb-3 mb-sm-0 bg-unactive text-white rounded-0" onClick={() => scroll('#Nosotros', 500)}>Nosotros</button>
                   <br className="d-inline d-sm-none mb-4" />
                   <button id="artistButton" type="button" className="btn px-5 btn-lg bg-active text-white mx-2 rounded-0" onClick={() => scroll('#carouselContainer', 500)} >Artistas</button>
                </p>

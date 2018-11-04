@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import AlbumContainer from "./albumContainer";
-// import '../css/bootstrap.min.css';
 import '../css/App.css';
-// import Musicians from '../Components/artists';
+//import Musicians from '../Components/artists';
 import Cover from '../Components/cover';
 import Info  from '../Components/Info';
 import Footer  from '../Components/footer';
+import Modal  from '../Components/modal';
 
 class App extends Component {
   constructor(props)
   {
     super(props);
     this.state = {
-       Musicians: [
+      Musicians: [
         {
           name: '',
           id : '',
@@ -27,7 +27,10 @@ class App extends Component {
             }
           ]
         }
-      ]
+      ],
+      showModal: false,
+      name: "",
+      album:{}
     };
   }
 
@@ -52,32 +55,29 @@ class App extends Component {
 
     return (
       <div>
-      <button className="d-none btn px-5 btn-lg bg-active text-white mx-2 rounded-0" type="button" value="Click me!" onClick={() => {alert(textMe);this.smoothScroll('#footer', 500)}}>
+        <Modal  showModal={this.state.showModal} Close={this.CloseModal} albumInfo={this.state.album} name={this.state.name}  />
+        <button className="d-none btn px-5 btn-lg bg-active text-white mx-2 rounded-0" type="button" value="Click me!" onClick={() => { alert(textMe);this.smoothScroll('#footer', 500)}} >
         Hola
         </button>
-        <Cover scroll={this.smoothScroll} />
+        <Cover scroll={this.smoothScroll}/>
         <Info />
         <div style={tiltedBorderContainer}>
           <div style={tiltedBorder} className="bg-unactive" ></div>
         </div>
-        <AlbumContainer Data={this.state.Musicians} />
+        <AlbumContainer Data={this.state.Musicians} action={this.OpenModal} />
         <Footer scroll={this.smoothScroll} />
       </div>
-    );
-    
+    );   
   }
   componentWillMount() {
- // fetch('https://next.json-generator.com/api/json/get/VydBEEoqS')
-    fetch('https://next.json-generator.com/api/json/get/N1MQtF39S')
+    fetch('https://next.json-generator.com/api/json/get/V1IJOSdhB')
     .then(resp => resp.json())
     .then(data => 
     {
-      console.log("-------------------------------------------------");
       this.setState({Musicians: data}); 
     })
     .catch(() => console.log("Someting went wrong") );
   }
-
   smoothScroll = (parameter, time) =>
   {
     var target = document.querySelector(parameter);
@@ -98,7 +98,6 @@ class App extends Component {
       return -c/2 * (t*(t-2) - 1) + b;
     }
 
-
     function animationScroll(currentTime)
     {
       if(startTime===null) startTime = currentTime;
@@ -111,6 +110,16 @@ class App extends Component {
     }
 
     requestAnimationFrame(animationScroll);
+  }
+  OpenModal = (name, album) => {
+    this.setState({ 
+      showModal: true,
+      album: album,
+      name: name 
+    });
+  }
+  CloseModal = () => {
+    this.setState({ showModal: false });
   }
 }
 

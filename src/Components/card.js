@@ -1,25 +1,21 @@
 import React from 'react';
 // import Logo from '../entorno_logo.jpg'
 
-const Card = ({name, info, url}) =>
+const Card = ({artistName, album, name, info, url, action}) =>
 {
-   const WIP = () =>
-   {
-      alert("Hi!\n\nThis is supposed to open a small windows where I let you download the album.\n\nAlthough, as you can see, I'm still working on adding modals to the site :)")
-   }
-   var para = info.split('\n');
+   var para = album.short.split('\n');
    var paragraphs = para.map((currentValue, i) => {
-      return (<p key={name.replace(/ /g, "") + i} className="card-text d-none d-lg-inline" >
+      return (<p key={album.name.replace(/ /g, "") + i} className="card-text d-none d-lg-inline" >
             {currentValue}
          </p>);
    });
    return(
    <div className="card flex-lg-row mx-auto mt-2 shadow p-3 text" style={{width: "90%" , minHeight: "300px", backgroundColor: "#fff", borderRadius: "0px"}} >
-      <img className=" d-block p-lg-0 p-3 m-auto" src={url} alt={name+" cover"} style={{maxHeight: "340px", maxWidth:"340px", width:"100%" }} /> 
+      <img className=" d-block p-lg-0 p-3 m-auto" src={album.url} alt={album.name+" cover"} style={{maxHeight: "340px", maxWidth:"340px", width:"100%" }} /> 
       <div className="card-body d-flex flex-column align-items-start mx-auto" style={{ maxWidth: "450px"}} >
-         <h5 className="card-title d-inline text-center text-lg-left mx-lg-0 mx-auto">{name}</h5>
+         <h5 className="card-title d-inline text-center text-lg-left mx-lg-0 mx-auto">{album.name}</h5>
          {paragraphs}
-         <button type="button" className="btn btn-primary mx-auto mb-1 mt-auto" onClick={WIP}>Disco metafisico</button>
+         <button type="button" className="btn btn-primary mx-auto mb-1 mt-auto" onClick={()=>action(artistName, album)}>Disco metafisico</button>
       </div>
    </div>
 

@@ -2,14 +2,19 @@ import React from 'react';
 // import Logo from '../entorno_logo.jpg';
 import Card from './card';
 
-const Carousel = ({currentArtist, active}) =>
+const Carousel = ({currentArtist, active, inheritAction}) =>
 {
             var nameNoSpaces = currentArtist.name.replace(/ /g, "");
             const Cards = currentArtist.albums.map((currentValue) => {
             var ClassName =  `carousel-item ${(currentValue.id===0)?"active":""}`;
             return(
                   <div key={currentValue.id} className={ClassName} >
-                        <Card  name={currentValue.name} info={currentValue.short} url={currentValue.url} /> 
+                        <Card artistName={currentArtist.name}
+                        album={currentValue}  
+                        name={currentValue.name} 
+                        info={currentValue.short} 
+                        url={currentValue.url} 
+                        action={inheritAction} /> 
                   </div>
                   );
             });

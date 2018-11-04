@@ -13,7 +13,6 @@ class AlbumContainer extends Component {
       artistList: this.props.Data,
       side: ""
     };
-    console.log("Album Container" ,this.state);
   }
 
   selectArtist = (event) =>
@@ -36,7 +35,7 @@ class AlbumContainer extends Component {
   render() {
     var temp = this.props.Data.map((currentValue) => {
       var isActive = ((currentValue.id===this.state.currentArtist)? "" : "d-none" );
-      return( <Carousel key={"Carousel"+currentValue.name.replace(/ /g, "-")} currentArtist={currentValue} active={isActive} /> );
+      return( <Carousel key={"Carousel"+currentValue.name.replace(/ /g, "-")} currentArtist={currentValue} active={isActive} inheritAction={this.props.action} /> );
     } );
     return (
       <section id="carouselContainer" className="" >

@@ -1,3 +1,6 @@
+.ReactModal__Body--open {
+  overflow: hidden;
+}
 .title
 {
   font-size: 85px;
@@ -126,11 +129,51 @@ h1
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
  }
  
- .carousel-control-next-icon {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
- }
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.Modal
+{
+  position: absolute;
+  margin: 2rem 2rem 2rem 2rem;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  outline: none;
+  padding: 20px;
+}
+.songList
+{
+  /* list-style: none; */
+  font-size: 10px;
+}
 
-@media (max-width: 768px) /*Medium*/
+@media (max-width: 992px) /* Medium */
+{
+  .Modal
+  {
+      position: absolute;
+      margin: auto;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      border: 1px solid #ccc;
+      background: #fff;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 4px;
+      outline: none;
+      padding: 20px
+  }
+}
+
+@media (max-width: 768px) /*Small*/
 {
   .inner
   {
@@ -146,7 +189,7 @@ h1
     padding: 2rem;
   }
 }
-@media (max-width: 575px) /*Small*/
+@media (max-width: 575px) /*extra Small*/
 {
   #carouselContainer{
     position: relative;
@@ -165,5 +208,20 @@ h1
   {
     transform: translateX(-100%);
   }
-  
+  .Modal
+  {
+      position: absolute;
+      margin: auto;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      border: 1px solid #ccc;
+      background: #fff;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 4px;
+      outline: none;
+      padding: 20px
+  }
 }
