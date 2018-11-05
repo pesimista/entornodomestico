@@ -1,7 +1,7 @@
 {
-  "main.css": "/entornodomestico/static/css/main.b50045d9.chunk.css",
-  "main.js": "/entornodomestico/static/js/main.c81fff95.chunk.js",
-  "main.js.map": "/entornodomestico/static/js/main.c81fff95.chunk.js.map",
+  "main.css": "/entornodomestico/static/css/main.6dbbc66d.chunk.css",
+  "main.js": "/entornodomestico/static/js/main.6ae3635c.chunk.js",
+  "main.js.map": "/entornodomestico/static/js/main.6ae3635c.chunk.js.map",
   "static/js/1.1874b0ff.chunk.js": "/entornodomestico/static/js/1.1874b0ff.chunk.js",
   "static/js/1.1874b0ff.chunk.js.map": "/entornodomestico/static/js/1.1874b0ff.chunk.js.map",
   "runtime~main.js": "/entornodomestico/static/js/runtime~main.8ad35317.js",
@@ -10,8 +10,8 @@
   "static/media/entorno_logo.jpg": "/entornodomestico/static/media/entorno_logo.aa1c2e8b.jpg",
   "static/media/entorno_letras.PNG": "/entornodomestico/static/media/entorno_letras.890bac8e.PNG",
   "static/media/entorno_animacion.gif": "/entornodomestico/static/media/entorno_animacion.8a0de117.gif",
-  "static/css/main.b50045d9.chunk.css.map": "/entornodomestico/static/css/main.b50045d9.chunk.css.map",
+  "static/css/main.6dbbc66d.chunk.css.map": "/entornodomestico/static/css/main.6dbbc66d.chunk.css.map",
   "index.html": "/entornodomestico/index.html",
-  "precache-manifest.e7b3fe98406fe9cc11206908cba9adc4.js": "/entornodomestico/precache-manifest.e7b3fe98406fe9cc11206908cba9adc4.js",
+  "precache-manifest.7b5de45f2154c132c13b3ceb0e97f277.js": "/entornodomestico/precache-manifest.7b5de45f2154c132c13b3ceb0e97f277.js",
   "service-worker.js": "/entornodomestico/service-worker.js"
 }

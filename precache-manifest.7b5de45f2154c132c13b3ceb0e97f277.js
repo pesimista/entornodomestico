@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/entornodomestico/static/js/runtime~main.8ad35317.js"
   },
   {
-    "revision": "c81fff955afdc1d5c0ff",
-    "url": "/entornodomestico/static/js/main.c81fff95.chunk.js"
+    "revision": "6ae3635c67a57a47c42d",
+    "url": "/entornodomestico/static/js/main.6ae3635c.chunk.js"
   },
   {
     "revision": "1874b0ff1fe753ca81c6",
     "url": "/entornodomestico/static/js/1.1874b0ff.chunk.js"
   },
   {
-    "revision": "c81fff955afdc1d5c0ff",
-    "url": "/entornodomestico/static/css/main.b50045d9.chunk.css"
+    "revision": "6ae3635c67a57a47c42d",
+    "url": "/entornodomestico/static/css/main.6dbbc66d.chunk.css"
   },
   {
-    "revision": "7bdcada491e5acaff3a1c8e262e3aecc",
+    "revision": "4fa5a2cd29e4a70432bf9b29c45be0e7",
     "url": "/entornodomestico/index.html"
   }
 ];
